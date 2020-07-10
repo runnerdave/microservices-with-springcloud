@@ -1,8 +1,7 @@
 package net.runnerdave.springbootApp.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Team {
@@ -12,6 +11,18 @@ public class Team {
     String name;
     String location;
     String mascot;
+
+    public Set<Player> getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(Set<Player> players) {
+        this.players = players;
+    }
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "teamId")
+    Set<Player> players;
 
     public Long getId() {
         return id;

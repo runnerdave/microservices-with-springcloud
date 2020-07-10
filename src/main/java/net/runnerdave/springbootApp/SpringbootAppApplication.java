@@ -1,5 +1,6 @@
 package net.runnerdave.springbootApp;
 
+import net.runnerdave.springbootApp.model.Player;
 import net.runnerdave.springbootApp.model.Team;
 import net.runnerdave.springbootApp.model.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @SpringBootApplication
 public class SpringbootAppApplication {
@@ -23,6 +26,11 @@ public class SpringbootAppApplication {
 		team.setLocation("Harlem");
 		team.setName("Globetrotters");
 		list.add(team);
+		Set<Player> set = new HashSet<>();
+		set.add(new Player("Big Easy", "Showman"));
+		set.add(new Player("Buckets", "Guard"));
+		set.add(new Player("Dizzy", "Guard"));
+		team.setPlayers(set);
 
 		Team team2 = new Team();
 		team2.setLocation("Washington");
