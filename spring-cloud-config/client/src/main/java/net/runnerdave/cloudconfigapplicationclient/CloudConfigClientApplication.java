@@ -1,13 +1,13 @@
-package net.runnerdave.cloudconfig;
+package net.runnerdave.cloudconfigapplicationclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CloudConfigApplication {
+public class CloudConfigClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudConfigApplication.class, args);
+		SpringApplication.run(CloudConfigClientApplication.class, args);
 	}
 
 }
