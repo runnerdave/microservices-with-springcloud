@@ -16,7 +16,7 @@ server:
 
 # Uncomment these lines to activate "northamerica" as the active profile.
 # Ordinarily we would not activate a profile from within a property file, but this is just a demo:
-#---
-#spring:
-#  profiles:
-#    active: northamerica
+---
+spring:
+  profiles:
+    active: northamerica
