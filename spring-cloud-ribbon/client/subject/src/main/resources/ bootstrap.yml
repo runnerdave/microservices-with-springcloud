@@ -1,0 +1,4 @@
+---
+spring:
+  application:
+    name: LB-4-SUBJECT

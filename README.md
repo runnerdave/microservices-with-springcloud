@@ -10,4 +10,6 @@ https://www.udemy.com/course/microservices-with-spring-cloud/
    [Spring Cloud Config](Spring-Cloud-Config-Lab.md)
    
    [Spring Cloud Eureka](Spring-Cloud-Eureka-Lab.md)
+   
+   [Spring Cloud Ribbon](Spring-cloud-ribbon-lab.md)
 
