@@ -1,0 +1,1 @@
+Start all word servers from ./spring-cloud-hystrix/word-server/run-all.sh

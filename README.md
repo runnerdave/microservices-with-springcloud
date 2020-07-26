@@ -11,9 +11,13 @@ https://www.udemy.com/course/microservices-with-spring-cloud/
    
    [Spring Cloud Eureka](Spring-Cloud-Eureka-Lab.md)
    
-   [Spring Cloud Ribbon](Spring-cloud-ribbon-lab.md)
+   [Spring Cloud Ribbon](Spring-Cloud-Ribbon-Lab.md)
    
-   [Spring Cloud Feign](Springboot-Cloud-Feign-Lab.md) (check tags for the undone lab)
+   [Spring Cloud Feign](Spring-Cloud-Feign-Lab.md) (check tags for the undone lab)
    
-   [Spring Clout Hystrix](Spring-Cloud-Hystrix-Lab.md)
+   [Spring Cloud Hystrix](Spring-Cloud-Hystrix-Lab.md)
+   
+   [Spring Cloud Bus](Spring-Cloud-Bus-Lab.md)
+   
+   [Spring Cloud Zuul](Spring-Cloud-Zuul.md)
 
